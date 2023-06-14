@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Login Page</title>
+    <link rel="icon" href="images/download (1).jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="position-fixed w-100 px-5 py-4 d-flex justify-content-between align-item-center">
+        <h2 class="logo text-white">Login</h2>
+        <nav class="navigation">
+            <a href="" class="text-white text-decoration-none ps-5 position-relative">Home</a>
+            <a href="" class="text-white text-decoration-none ps-5 position-relative">services</a>
+            <a href="" class="text-white text-decoration-none ps-5 position-relative">News</a>
+            <a href="" class="text-white text-decoration-none ps-5 position-relative">Contact</a>
+            <button id="btn-2" class="bg-transparent ms-5 text-white" onmouseover="mouseOver()" onmouseout="mouseOut()">Log in</button>
+        </nav>
+    </header>
+    <div class="login-box position-absolute p-5">
+        <h2 class="p-0 text-white text-center mb-4">Login</h2>
+        <form action="" name="form">
+            <div class="user-box position-relative">
+                <input type="text" name="Username" id="" class="w-100 py-1 text-primary mb-4 bg-transparent">
+                <label class="position-absolute py-1 text-white">Username</label>
+            </div>
+            <div class="user-box position-relative">
+                <input type="password" name="password" id="" class="w-100 py-1 text-primary mb-4 bg-transparent">
+                <label class="position-absolute py-1 text-white">password</label>
+            </div>
+            <!-- <button onclick="validation()">click me</button> -->
+            <!-- <button onclick="validation()">click</button> -->
+            <a href="#" type="button"
+                class="position-relative d-inline-block px-3 py-2 text-decoration-none text-uppercase me-5"
+                onclick="validation()">
+                <span class="position-absolute d-block w-100"></span>
+                <span class="position-absolute d-block"></span>
+                <span class="position-absolute d-block"></span>
+                <span class="position-absolute d-block"></span>
+                Login
+            </a>
+        </form>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
